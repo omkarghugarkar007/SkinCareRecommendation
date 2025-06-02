@@ -32,6 +32,7 @@
   <img src="photos/RAGAnswer.jpeg" alt="RAG Answers" width="300"/>
   <img src="photos/FinalRecommendations.jpeg" alt="Final Recommendations" width="300"/>
 </div>
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/402e7647-7eb3-4a71-bdec-d5b5f1246110" />
 
 ## 🛠️ Prerequisites
 
