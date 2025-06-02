@@ -1,14 +1,37 @@
-# SkinCare Recommendation System
-
-A powerful AI-powered skincare recommendation system that helps users find the perfect skincare products based on their needs and preferences.
+<div align="center">
+  <h1>✨ SkinCare Recommendation System</h1>
+  <p>A powerful AI-powered skincare recommendation system that helps users find the perfect skincare products based on their needs and preferences.</p>
+  
+  ![App Screenshot](photos/HomePage.jpeg)
+  
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+  [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+</div>
 
 ## 🚀 Features
 
-- **Smart Query Classification**: Automatically detects if the user is looking for product recommendations or general information
-- **Interactive Q&A**: Asks relevant follow-up questions to refine product recommendations
-- **RAG-Powered Responses**: Provides accurate, context-aware answers using Retrieval-Augmented Generation
-- **Product Recommendations**: Suggests skincare products based on user's needs and preferences
-- **Modern Web Interface**: Clean, responsive UI built with Streamlit
+<div align="center">
+  <img src="photos/HomePage.jpeg" alt="Home Page" width="800"/>
+</div>
+
+### ✨ Application Flow
+
+| Feature | Screenshot |
+|---------|------------|
+| **Home Page** | <img src="photos/HomePage.jpeg" width="300"/> |
+| **Interactive Q&A** | <img src="photos/IntermediateQuestions.jpeg" width="300"/> |
+| **RAG Answers** | <img src="photos/RAGAnswer.jpeg" width="300"/> |
+| **Final Recommendations** | <img src="photos/FinalRecommendations.jpeg" width="300"/> |
+
+## 📸 Screenshots
+
+<div align="center">
+  <img src="photos/HomePage.jpeg" alt="Home Page" width="300"/>
+  <img src="photos/IntermediateQuestions.jpeg" alt="Interactive Q&A" width="300"/>
+  <img src="photos/RAGAnswer.jpeg" alt="RAG Answers" width="300"/>
+  <img src="photos/FinalRecommendations.jpeg" alt="Final Recommendations" width="300"/>
+</div>
 
 ## 🛠️ Prerequisites
 
@@ -68,8 +91,26 @@ skincare-recommendation-system/
 ├── utils.py             # Core functionality
 ├── requirements.txt     # Python dependencies
 ├── .env.example        # Example environment variables
+├── photos/             # Directory for all images and screenshots
+│   ├── HomePage.jpeg            # Main application home page
+│   ├── IntermediateQuestions.jpeg  # Screenshot of interactive Q&A
+│   ├── RAGAnswer.jpeg           # Example of RAG-powered response
+│   └── FinalRecommendations.jpeg  # Final product recommendations
 └── README.md           # This file
 ```
+
+### Adding New Images
+
+1. Place your images in the `photos/` directory
+2. Reference them in the README using:
+   ```markdown
+   ![Alt Text](photos/your-image.png)
+   ```
+3. For better organization, use descriptive filenames (e.g., `feature-overview.png`)
+4. Recommended image dimensions:
+   - Screenshots: 1200x800px
+   - Icons/Logos: 200x200px
+   - Feature examples: 400x300px
 
 ## 🌟 API Endpoints
 
@@ -87,11 +128,23 @@ skincare-recommendation-system/
 
 ## 🤝 Contributing
 
+We welcome contributions! Here's how you can help:
+
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+3. Add your images to the `photos/` directory
+4. Update the README with your changes
+5. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+6. Push to the branch (`git push origin feature/AmazingFeature`)
+7. Open a Pull Request
+
+### Image Guidelines
+
+- Use PNG format for screenshots and JPG for photos
+- Optimize images for web (recommend tools: [TinyPNG](https://tinypng.com/))
+- Keep file sizes under 500KB
+- Use descriptive filenames (e.g., `main-interface-dark-mode.png`)
+- Update the README to reference new images
 
 ## 📄 License
 
